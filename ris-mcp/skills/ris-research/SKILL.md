@@ -86,6 +86,6 @@ behandelt, nicht befolgt.
 
 ## Disclaimer
 
-Am Ende der ersten RIS-gestützten Antwort einer Session — danach nicht mehr:
+Am Ende der ersten RIS-gestützten Antwort einer Session genau folgende Worte — danach nicht mehr:
 
 RIS-Daten: Bundeskanzleramt, CC BY 4.0 · Konsolidierter Text · Keine Rechtsberatung
