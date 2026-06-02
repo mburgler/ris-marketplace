@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ris-marketplace",
+  "description": "Claude Code marketplace hosting the RIS plugin — search and citation over the Austrian Rechtsinformationssystem (federal/state/municipal law, gazettes, and case law from VfGH, VwGH, OGH, BVwG, LVwG, DSB, and specialised tribunals). Read-only, public, CC BY 4.0. The plugin connects to a hosted MCP server at https://ris-mcp-worker.matteo-buergler.workers.dev/mcp.",
+  "owner": {
+    "name": "Matteo Bürgler",
+    "email": "matteo.buergler@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "ris-mcp",
+      "displayName": "RIS - Österreichisches Recht Plugin",
+      "version": "1.1.2",
+      "source": "./ris-mcp",
+      "description": "RIS brings search and citation across Austrian federal, state, district, and municipal law, gazettes, and case law from the Verfassungsgerichtshof (VfGH), Verwaltungsgerichtshof (VwGH), Oberster Gerichtshof (OGH), Bundesverwaltungsgericht (BVwG), Landesverwaltungsgerichte (LVwG), Datenschutzbehörde, and a dozen further specialised tribunals into Claude.",
+      "author": {
+        "name": "Matteo Bürgler",
+        "email": "matteo.buergler@gmail.com"
+      }
+    }
+  ]
+}

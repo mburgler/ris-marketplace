@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "ris-mcp": {
+      "type": "http",
+      "url": "https://ris-mcp-worker.matteo-buergler.workers.dev/mcp",
+      "title": "RIS – Österreichisches Recht",
+      "description": "Austrian Rechtsinformationssystem — search and citation across federal/state/municipal law, gazettes, and case law from VfGH, VwGH, OGH, BVwG, LVwG, and specialised tribunals. Read-only, public, CC BY 4.0."
+    }
+  }
+}

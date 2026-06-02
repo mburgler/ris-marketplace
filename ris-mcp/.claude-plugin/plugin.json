@@ -1,0 +1,10 @@
+{
+  "name": "ris-mcp",
+  "displayName": "RIS - Österreichisches Recht Plugin",
+  "version": "1.1.2",
+  "description": "RIS brings search and citation across Austrian federal, state, district, and municipal law, gazettes (Bundesgesetzblatt, Landesgesetzblätter), and case law from the Verfassungsgerichtshof, Verwaltungsgerichtshof, Oberster Gerichtshof, Bundesverwaltungsgericht, Landesverwaltungsgerichte, and specialised tribunals into Claude. Built on the public OGD API of the Bundeskanzleramt Rechtsinformationssystem. Read-only, public, CC BY 4.0.",
+  "author": {
+    "name": "Matteo Bürgler",
+    "email": "matteo.buergler@gmail.com"
+  }
+}
