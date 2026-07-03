@@ -33,7 +33,7 @@ Adding the plugin in the Claude app allows for usage in the Claude Mobile App.
 
 ```text
 /plugin marketplace add https://github.com/mburgler/ris-marketplace
-/plugin install ris-mcp@ris-marketplace
+/plugin install ris@ris-marketplace
 /reload-plugins
 /reload-skills
 ```
@@ -81,7 +81,7 @@ curl https://ris-mcp-worker.matteo-buergler.workers.dev/health
 ```
 .claude-plugin/
   marketplace.json        # marketplace manifest
-ris-mcp/                  # the plugin itself
+ris/                      # the plugin itself
   .claude-plugin/plugin.json
   .mcp.json               # connector configuration → hosted endpoint
   README.md               # plugin-level docs
