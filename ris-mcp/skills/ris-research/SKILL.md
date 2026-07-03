@@ -2,8 +2,6 @@
 name: ris-research
 description: Use whenever the user asks about Austrian law — federal, state, district or municipal law, gazettes (Bundesgesetzblatt, Landesgesetzblätter), or case law from the Verfassungsgerichtshof (VfGH), Verwaltungsgerichtshof (VwGH), Oberster Gerichtshof (OGH), Bundesverwaltungsgericht (BVwG), Landesverwaltungsgerichte (LVwG), Datenschutzbehörde and other specialised tribunals. Triggers include codes like ABGB, StGB, StPO, ZPO, EO, UGB, ASVG, GewO, AVG, B-VG, AktG, GmbHG, ArbVG, MRG, KSchG, AsylG, FPG, WRG, DSG; references to BGBl. (I/II/III) or LGBl.; Geschäftszahl patterns like "Ra 2019/02/0138", "Ro 2023/12/0021", "G 100/2024", "1 Ob 50/24a", "9 ObA 100/23z", "W123 2245678-1", "DSB-D122.453"; or questions like "is X in force in Austria", "has the VwGH ruled on Y", "what does §X of the [code] say", "what cites/amends/implements X". Use even when no code is named but the question is substantive Austrian law. Routes to the hosted RIS MCP server. Not for German, Swiss, EU, or other non-Austrian jurisdictions.
 license: Apache-2.0
-allowed-tools:
-  - mcp
 ---
 
 # RIS — Österreichische Rechtsrecherche
@@ -18,7 +16,7 @@ Referenzen — Freshness N/A.
 - Für Juristen und Rechtsrecherche; **österreichisches** Recht.
 - RIS liefert **Quellen, keine Schlussfolgerung** — der Anwalt entscheidet. Legal
   support, nicht legal advice; es schafft oder hebt kein Privileg auf.
-- Read-only Connector: `allowed-tools: mcp`, keine Hooks, keine Schreiboperationen.
+- Read-only MCP-Connector: keine Hooks, keine Schreiboperationen.
 - Fehlerquellen, die dieses Skill ausschließt: erfundene IDs · **Paraphrase als Zitat ausgegeben**.
 
 ## Workflow
