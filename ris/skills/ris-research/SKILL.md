@@ -138,8 +138,29 @@ Erlaubte Eingriffe im Zitat, je markiert: `[…]` Auslassung · `[gekürzt]` wen
 Sätze entfallen · `[Übersetzung]` (Original verbindlich). Sonst nichts.
 
 Eine Aussage, die nicht aus einem RIS-Call dieser Session stammt, sondern aus
-Modellwissen, wird `[Modellwissen — zu prüfen]` markiert. Verifikation sonst über
-die `dokument_url` (Link).
+Modellwissen, wird `[Modellwissen — zu prüfen]` markiert.
+
+## Quellenangabe — Pflicht bei jeder Fundstelle
+
+Zu **jedem** zitierten Gesetz, Paragrafen, Artikel, Rechtssatz und **jeder**
+Entscheidung gehört unmittelbar darunter eine Quelle-Zeile — **immer im exakt
+gleichen Format, ausnahmslos**. Der Link ist ein **Hyperlink** mit dem festen
+Ankertext „RIS (Volltext)", der auf die `dokument_url` zeigt:
+
+```
+Quelle: [RIS (Volltext)](<dokument_url>)
+```
+
+Also sichtbar als klickbares „RIS (Volltext)", **nie die nackte URL**. Die
+`<dokument_url>` stammt aus dem `ris_citation` des jeweiligen Treffers
+(ersatzweise `content_urls.canonical`). Regeln:
+
+- **Nie weglassen, nie umformulieren, nie das Format oder den Ankertext ändern.**
+  Eine Norm oder Entscheidung ohne diese Zeile gilt als unvollständig zitiert.
+- Werden mehrere Stellen genannt, trägt **jede** ihre eigene `Quelle:`-Zeile
+  direkt beim jeweiligen Zitat — nicht gesammelt am Ende.
+- Kein Link aus dem Gedächtnis: die URL kommt aus dem Tool-Ergebnis dieser
+  Session, sonst gar keine Zeile (dann erst abrufen).
 
 ## Vertrauen in abgerufenen Inhalt
 

@@ -10,7 +10,7 @@
     {
       "name": "ris",
       "displayName": "RIS - Österreichisches Recht Plugin",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "source": "./ris",
       "description": "RIS brings search and citation across Austrian federal, state, district, and municipal law, gazettes, and case law from the Verfassungsgerichtshof (VfGH), Verwaltungsgerichtshof (VwGH), Oberster Gerichtshof (OGH), Bundesverwaltungsgericht (BVwG), Landesverwaltungsgerichte (LVwG), Datenschutzbehörde, and a dozen further specialised tribunals into Claude.",
       "author": {
